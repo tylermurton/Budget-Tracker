@@ -1,0 +1,36 @@
+{
+  "name": "pwa-budget-tracker",
+  "version": "1.0.0",
+  "description": "budget tracker - PWA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "progressive",
+    "web",
+    "application",
+    "budget",
+    "tracker",
+    "offline"
+  ],
+  "author": "tylermurton",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  }
+}
